@@ -5894,11 +5894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dino\\source\\repos\\KarinaCore\\KarinaCore\\KarinaCore.csproj",
-      "projectName": "KarinaCore",
-      "projectPath": "C:\\Users\\Dino\\source\\repos\\KarinaCore\\KarinaCore\\KarinaCore.csproj",
+      "projectUniqueName": "C:\\Users\\Dino\\source\\repos\\ASP.NET Core 5 REST API\\KarinaCore\\FuckCore.csproj",
+      "projectName": "FuckCore",
+      "projectPath": "C:\\Users\\Dino\\source\\repos\\ASP.NET Core 5 REST API\\KarinaCore\\FuckCore.csproj",
       "packagesPath": "C:\\Users\\Dino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dino\\source\\repos\\KarinaCore\\KarinaCore\\obj\\",
+      "outputPath": "C:\\Users\\Dino\\source\\repos\\ASP.NET Core 5 REST API\\KarinaCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dino\\AppData\\Roaming\\NuGet\\NuGet.Config",

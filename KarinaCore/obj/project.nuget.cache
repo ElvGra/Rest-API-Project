@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+CcbppXWGJ64YAMozZTVP78mci2HKBKXnWclX8EttpYlPrxbXqe4yr5AoeeS2hTqvJjOAhTuJclOtDc3ORHjA==",
+  "dgSpecHash": "/GRrWP3jTjDkUGrFbpMiN7iG153itFhcM7fsygZAmTpXvB+xfssxzHAOnQXaCulklInbCWllb35ysmcwq4CXxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dino\\source\\repos\\KarinaCore\\KarinaCore\\KarinaCore.csproj",
+  "projectFilePath": "C:\\Users\\Dino\\source\\repos\\ASP.NET Core 5 REST API\\KarinaCore\\FuckCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dino\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.11\\microsoft.aspnetcore.cryptography.internal.3.1.11.nupkg.sha512",
     "C:\\Users\\Dino\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.11\\microsoft.aspnetcore.cryptography.keyderivation.3.1.11.nupkg.sha512",
