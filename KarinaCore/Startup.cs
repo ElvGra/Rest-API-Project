@@ -1,3 +1,4 @@
+using FuckCore.Installers;
 using KarinaCore.Data;
 using KarinaCore.Options;
 using Microsoft.AspNetCore.Builder;
@@ -29,20 +30,10 @@ namespace KarinaCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<DataContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 
-            services.AddSwaggerGen(x =>
-             {
-                 x.SwaggerDoc("v1", new OpenApiInfo { Title = "Karina API", Version = "v1" });
-                 
-                 
-             });
+            services.InstallServicesInAssembly(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
