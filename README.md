@@ -11,4 +11,4 @@ This is my first REST API project that I will work on.
  - Learn more about requests
 
 # To-do
-~~ - Add .gitignore
+~~ - Add .gitignore ~~
