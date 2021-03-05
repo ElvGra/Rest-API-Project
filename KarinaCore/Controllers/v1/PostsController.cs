@@ -44,6 +44,17 @@ namespace FuckCore.Controllers.v1
             return NotFound();
         }
 
+        [HttpDelete(Contracts.ApiRoutes.Posts.Delete)]
+        public IActionResult Delete([FromRoute] Guid postId)
+        {
+            var deleted = _postService.DeletePost(postId);
+
+            if (deleted)
+                return NoContent();
+
+            return NotFound();
+        }
+
         [HttpGet(Contracts.ApiRoutes.Posts.Get)]
         public IActionResult Get([FromRoute]Guid postId)
         {
