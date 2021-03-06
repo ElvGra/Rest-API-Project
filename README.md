@@ -8,9 +8,13 @@ This is my first REST API project that I will work on.
  - How to retrieve resources from a collection
  - PUT request
  - DELETE request
+ - Migration
+ - Entity Framework
+ - A dash of PostgreSQL
 # Notes
  - Get better at file naming
  - Learn more about requests
+ - Learn more about Entity Framework
 
 # To-do
 ~~- Add .gitignore~~
