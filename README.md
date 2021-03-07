@@ -15,6 +15,5 @@ This is my first REST API project that I will work on.
  - Get better at file naming
  - Learn more about requests
  - Learn more about Entity Framework
-
 # To-do
 ~~- Add .gitignore~~
