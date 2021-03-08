@@ -11,6 +11,7 @@ This is my first REST API project that I will work on.
  - Migration
  - Entity Framework
  - A dash of PostgreSQL
+ - Jwt setup
 # Notes
  - Get better at file naming
  - Learn more about requests
