@@ -12,6 +12,7 @@ This is my first REST API project that I will work on.
  - Entity Framework
  - A dash of PostgreSQL
  - Jwt setup
+   -User registration
 # Notes
  - Get better at file naming
  - Learn more about requests
