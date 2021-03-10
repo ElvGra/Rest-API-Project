@@ -4,6 +4,8 @@ using FuckCore.Contracts.v1.Requests;
 using FuckCore.Contracts.v1.Responses;
 using FuckCore.Domain;
 using FuckCore.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,6 +15,7 @@ using ApiRoutes = FuckCore.Contracts.ApiRoutes;
 
 namespace FuckCore.Controllers.v1
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PostsController : Controller
     {
         private readonly IPostService _postService;

@@ -1,5 +1,6 @@
 ﻿using FuckCore.Installers;
 using FuckCore.Options;
+using FuckCore.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,6 +21,8 @@ namespace FuckCore.IInstallers
             var jwtSettings = new JwtSettings();
             configuration.Bind(nameof(jwtSettings), jwtSettings);
             services.AddSingleton(jwtSettings);
+          
+            services.AddScoped<IIdentityService, IdentityService>();
 
             services.AddAuthentication(x =>
             {
