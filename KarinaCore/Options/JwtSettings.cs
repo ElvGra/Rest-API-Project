@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Options
+namespace TempCore.Options
 {
     public class JwtSettings
     {

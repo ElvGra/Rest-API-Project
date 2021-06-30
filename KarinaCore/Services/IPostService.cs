@@ -1,10 +1,10 @@
-﻿using FuckCore.Domain;
+﻿using TempCore.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Services
+namespace TempCore.Services
 {
     public interface IPostService
     {

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace FuckCore.Migrations
+namespace TempCore.Migrations
 {
     public partial class AddedPosts : Migration
     {

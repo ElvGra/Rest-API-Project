@@ -1,5 +1,5 @@
-﻿using FuckCore.Domain;
-using FuckCore.Options;
+﻿using TempCore.Domain;
+using TempCore.Options;
 using Google.Apis.Admin.Directory.directory_v1.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -11,7 +11,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FuckCore.Services
+namespace TempCore.Services
 {
     public class IdentityService : IIdentityService
     {

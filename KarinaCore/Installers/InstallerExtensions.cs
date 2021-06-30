@@ -1,4 +1,4 @@
-﻿using KarinaCore;
+﻿using TemplateCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Installers
+namespace TempCore.Installers
 {
     public static class InstallerExtensions
     {

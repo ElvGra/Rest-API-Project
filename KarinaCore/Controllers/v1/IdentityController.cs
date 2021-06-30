@@ -1,14 +1,14 @@
-﻿using FuckCore.Contracts;
-using FuckCore.Contracts.v1.Requests;
-using FuckCore.Contracts.v1.Responses;
-using FuckCore.Services;
+﻿using TempCore.Contracts;
+using TempCore.Contracts.v1.Requests;
+using TempCore.Contracts.v1.Responses;
+using TempCore.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Controllers.v1
+namespace TempCore.Controllers.v1
 {
     public class IdentityController : Controller
     {

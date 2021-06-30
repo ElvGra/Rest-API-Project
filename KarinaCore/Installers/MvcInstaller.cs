@@ -1,6 +1,6 @@
-﻿using FuckCore.Installers;
-using FuckCore.Options;
-using FuckCore.Services;
+﻿using TempCore.Installers;
+using TempCore.Options;
+using TempCore.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FuckCore.IInstallers
+namespace TempCore.IInstallers
 {
     public class MvcInstaller : IInstaller 
     {
@@ -46,7 +46,7 @@ namespace FuckCore.IInstallers
 
             services.AddSwaggerGen(x =>
             {
-                x.SwaggerDoc("v1", new OpenApiInfo { Title = "Karina API", Version = "v1" });
+                x.SwaggerDoc("v1", new OpenApiInfo { Title = "Temple API", Version = "v1" });
 
                 var security = new Dictionary<string, IEnumerable<string>>
                 {

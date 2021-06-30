@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Contracts.v1.Requests
+namespace TempCore.Contracts.v1.Requests
 {
     public class CreatePostRequest
     {

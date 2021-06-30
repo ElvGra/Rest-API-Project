@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "KarinaCore": {
+    "TemplateCore": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

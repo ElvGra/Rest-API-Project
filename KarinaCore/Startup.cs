@@ -1,6 +1,6 @@
-using FuckCore.Installers;
-using KarinaCore.Data;
-using KarinaCore.Options;
+using TempCore.Installers;
+using TemplateCore.Data;
+using TemplateCore.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,7 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KarinaCore
+namespace TemplateCore
 {
     public class Startup
     {

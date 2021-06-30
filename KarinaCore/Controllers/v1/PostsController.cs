@@ -1,9 +1,9 @@
-﻿using FuckCore.Contracts;
-using FuckCore.Contracts.v1;
-using FuckCore.Contracts.v1.Requests;
-using FuckCore.Contracts.v1.Responses;
-using FuckCore.Domain;
-using FuckCore.Services;
+﻿using TempCore.Contracts;
+using TempCore.Contracts.v1;
+using TempCore.Contracts.v1.Requests;
+using TempCore.Contracts.v1.Responses;
+using TempCore.Domain;
+using TempCore.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ApiRoutes = FuckCore.Contracts.ApiRoutes;
+using ApiRoutes = TempCore.Contracts.ApiRoutes;
 
-namespace FuckCore.Controllers.v1
+namespace TempCore.Controllers.v1
 {
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PostsController : Controller

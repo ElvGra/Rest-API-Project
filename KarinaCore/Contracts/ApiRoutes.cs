@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FuckCore.Contracts
+namespace TempCore.Contracts
 {
     public static class ApiRoutes
     {
